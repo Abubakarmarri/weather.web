@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  display: none;
+  margin-top: 47px;
+}
+
+#card {
+  height: 470px;
+  width: 310px;
+  background: linear-gradient(135deg, #00feba, #5b558a);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+.search {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.search input {
+  border: none;
+  height: 30px;
+  width: 230px;
+  border-radius: 23px;
+  font-size: 0.7rem;
+  padding: 18px;
+}
+
+.search button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search button i {
+  font-size: 1rem;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather img {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+
+.city-name {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.city-name #digree {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.city-name #city {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.temprature {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  margin-top: 65px;
+  opacity: 0.7;
+}
+
+.temprature .p1 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.temprature img {
+  height: 25px;
+}
+
+.temp p {
+  font-size: 0.7rem;
+  color: #fff;
+}
+
+#card-2 {
+  height: 470px;
+  width: 310px;
+  background: linear-gradient(135deg, #00feba, #5b558a);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  display: none;
+  border-radius: 15px;
+}
+
+#card-2 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
